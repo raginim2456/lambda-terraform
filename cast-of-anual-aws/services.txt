@@ -1,0 +1,11 @@
+Calculate the cost for:
+
+The S3 bucket (storage + request costs if applicable).
+
+The EC2 instance (based on instance type, running hours, etc.).
+
+The data transfer costs (if public website is accessed).
+
+The Lambda function (based on number of executions, compute time).
+
+Any additional minor costs (like Elastic IPs if used, etc.)

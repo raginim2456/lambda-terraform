@@ -1,0 +1,15 @@
+
+Resource	Estimated Annual Cost (USD)
+EC2 Instance (t2.micro)	~$90
+S3 Bucket (50 GB Storage + Static Website Hosting)	~$12
+AWS Lambda (Minimal Usage)	~$0 (Within Free Tier)
+Data Transfer (1 GB per Month)	~$12
+Total Estimated Cost	~$114 per year
+Notes:
+The EC2 instance cost is based on running a t2.micro instance 24/7 for 12 months under standard on-demand pricing (without Reserved Instances or Savings Plans).
+
+S3 storage cost assumes ~50 GB storage with minimal request and data transfer charges.
+
+Lambda remains within the AWS Free Tier limits (1 million requests and 400,000 GB-seconds compute time per month).
+
+Data transfer out to internet is estimated for 1 GB per month at standard AWS rates.
